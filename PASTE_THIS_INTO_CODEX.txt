@@ -1,0 +1,5 @@
+BUILD FROM ZERO. This is a new empty workspace; the previous Codex chat/project was lost. There is no existing RJ Hub implementation to continue.
+
+Read AGENTS.md in full, inspect the bundled official brand kit, stakeholder notes and all 20 candidate photos, and build the complete UC Berkeley Restorative Justice Hub WordPress local prototype specified there. The project must be fully runnable from the delivered ZIP, with real Gutenberg editing, complete templates, structured content, photo placement and review flags, an accessible circle-navigation homepage, blog, projects, resources, historical-map infrastructure, and safe unactivated intake demo.
+
+Do the implementation and testing, not just a plan. Produce a usable local preview plus a DOWNLOADABLE portable WordPress package, setup instructions for Ubuntu/WSL2, QA report, editing handbook and Pantheon migration guide. Do not change or deploy the existing live Berkeley site, purchase hosting, activate intake collection, or assume the old Codex session still exists. Use January 2027 as tentative public migration; local prototype comes first.
