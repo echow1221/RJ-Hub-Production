@@ -1,0 +1,6 @@
+old_path,target_path,status,review_state,notes
+/,/,none,same_path,Home keeps the original root URL. No redirect action.
+,/about/,pending,needs_source_urls,Review About variants and identify actual paths.
+,/get-involved/,pending,needs_source_urls,Review Get Involved variants and identify actual paths.
+,/legacy/,pending,needs_source_urls,Review former Center pages for retained historical URLs.
+,/blog/,pending,needs_source_urls,Review every published article and preserve its canonical slug or add a path-specific redirect.

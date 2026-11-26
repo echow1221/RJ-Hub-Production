@@ -1,0 +1,130 @@
+{
+  "081518SororityTraining.jpg": {
+    "visible": "Group in chairs facing inward in a bright room.",
+    "decision": "hold",
+    "follow_up": "Confirm permissions and context before considering a future circle-practice illustration."
+  },
+  "2018FallKIPPTraining4.jpg": {
+    "visible": "Seated discussion in a classroom with school displays.",
+    "decision": "exclude_school_context",
+    "follow_up": "Resolve possible minor or school participation with documented institutional and participant permissions."
+  },
+  "2018SpringJohannaWaysofBeingSquare copy.jpeg": {
+    "visible": "Participant beside a handwritten Ways of Being poster.",
+    "decision": "hold",
+    "follow_up": "Confirm image and participant releases and verify whether board content may be shared."
+  },
+  "20190926_115422 copy.jpg": {
+    "visible": "People seated around a low table in front of daylight windows.",
+    "decision": "exclude_duplicate_view",
+    "follow_up": "Same visible composition as 2019FallDeannaClass.jpg. Review against a verified master before reuse."
+  },
+  "2019FallDeannaClass.jpg": {
+    "visible": "People seated in a circle around a low table in a sunlit room.",
+    "decision": "private_preview",
+    "key": "home-hero",
+    "filename": "circle-dialogue.webp",
+    "placement": "Home, both preview compositions",
+    "crop": "Keep the group and table visible. At compact widths prefer a wide image over a tight center crop.",
+    "focal_x": 0.52,
+    "focal_y": 0.48,
+    "caption": "Private preview · Archival circle photograph. Publication rights and event context pending.",
+    "follow_up": "Obtain photographer permission, participant release, provenance and verified credit."
+  },
+  "2019GSITRainbowID.jpg": {
+    "visible": "People seated on the floor with colored sticks arranged between them.",
+    "decision": "private_preview",
+    "key": "workshop-activity",
+    "filename": "workshop-activity.webp",
+    "placement": "Offerings",
+    "crop": "Keep the floor activity visible. Preserve 4:3 where possible.",
+    "focal_x": 0.49,
+    "focal_y": 0.61,
+    "caption": "Private preview · Archival workshop image. Publication rights and event context pending.",
+    "follow_up": "Confirm event and releases. Retain historical label even if active offerings are approved later."
+  },
+  "2021GSITDay2ConCircles copy.jpg": {
+    "visible": "Group standing around objects laid out on the floor.",
+    "decision": "hold",
+    "follow_up": "Confirm event details and participants' permission before considering use."
+  },
+  "2021JamboardRJC.png": {
+    "visible": "Virtual board with values and names on sticky notes.",
+    "decision": "exclude_private",
+    "follow_up": "Names and meeting contributions are visible. Keep the file in restricted source storage."
+  },
+  "COSATraining1.jpg": {
+    "visible": "People seated in a circle near a plant and colorful materials.",
+    "decision": "private_preview",
+    "key": "home-support",
+    "filename": "facilitation-circle.webp",
+    "placement": "Home supporting story, What Is RJ and Style Guide",
+    "crop": "Keep both the people and the materials in frame. Use a loose landscape crop.",
+    "focal_x": 0.53,
+    "focal_y": 0.53,
+    "caption": "Private preview · Archival circle photograph. Publication rights and event context pending.",
+    "follow_up": "Verify context, credit and releases. Avoid inferring partner status."
+  },
+  "Copy of 2015RJforSVSHConferenceCircleLea.jpg": {
+    "visible": "People seated in a large circle of chairs and couches.",
+    "decision": "private_preview",
+    "key": "archival-gathering",
+    "filename": "archival-gathering.webp",
+    "placement": "Legacy. Consider for About after clearance",
+    "crop": "Preserve the full wide circle and avoid a portrait crop.",
+    "focal_x": 0.5,
+    "focal_y": 0.48,
+    "caption": "Private preview · Archival gathering photograph. Publication rights and event context pending.",
+    "follow_up": "Confirm all releases, event attribution and provenance, particularly given the potential sensitivity of the filename context."
+  },
+  "DeannaClass6.jpg": {
+    "visible": "Closer view of a seated group and round table by tall windows.",
+    "decision": "hold",
+    "follow_up": "Similar room and composition to home hero. Reconcile provenance and image selection before use."
+  },
+  "DeannasClass.jpg": {
+    "visible": "Group seated around a table beneath hanging lights.",
+    "decision": "hold",
+    "follow_up": "Low-resolution source. Confirm context, credit and releases before considering use."
+  },
+  "DecalTeamPhoto1.JPG": {
+    "visible": "Three people standing together outdoors.",
+    "decision": "hold",
+    "follow_up": "Obtain direct consent for all pictured individuals and verify historical team context."
+  },
+  "RJOYTrainingKyle.JPG": {
+    "visible": "People seated across a room in front of windows and posters.",
+    "decision": "hold",
+    "follow_up": "Verify consent and event context. Avoid inferring a current partnership from the filename."
+  },
+  "SAOCircle8.JPG": {
+    "visible": "People in chairs and on the floor look down at papers in their hands.",
+    "decision": "hold",
+    "follow_up": "Verify releases and classroom or event context. The selected main photo better conveys face-to-face dialogue."
+  },
+  "Screen Shot 2018-02-21 at 2.40.45 PM copy.png": {
+    "visible": "Wide screenshot crop of people seated by bright windows.",
+    "decision": "exclude_private",
+    "follow_up": "Verify origin, releases and intended use before reconsidering."
+  },
+  "Screen Shot 2018-11-13 at 12.40.15 PM copy.png": {
+    "visible": "Wide crop of a seated group with a classroom backdrop.",
+    "decision": "exclude_school_context",
+    "follow_up": "Likely related to 2018FallKIPPTraining4.jpg. Review potential minors, privacy and original asset before reuse."
+  },
+  "Screen Shot 2020-11-10 at 8.04.54 PM.png": {
+    "visible": "Virtual meeting tiles, display names, and text chat.",
+    "decision": "exclude_private",
+    "follow_up": "Preserve participant privacy. Exclude from site, library and portable package."
+  },
+  "Screen Shot 2020-11-18 at 11.02.41 AM.png": {
+    "visible": "Single meeting participant with a display label in a workspace.",
+    "decision": "exclude_private",
+    "follow_up": "Preserve participant privacy. Exclude from site, library and portable package."
+  },
+  "Screen Shot 2020-11-18 at 9.29.06 AM.png": {
+    "visible": "Gallery view of a video call with participant tiles and names.",
+    "decision": "exclude_private",
+    "follow_up": "Preserve participant privacy. Exclude from site, library and portable package."
+  }
+}

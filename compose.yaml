@@ -1,0 +1,71 @@
+name: rjhub
+services:
+  db:
+    image: mariadb:11.4
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: wordpress
+      MARIADB_USER: wordpress
+      MARIADB_PASSWORD: ${RJHUB_DB_PASSWORD:?Run bash scripts/setup.sh to initialize .env}
+      MARIADB_ROOT_PASSWORD: ${RJHUB_DB_ROOT_PASSWORD:?Run bash scripts/setup.sh to initialize .env}
+    volumes:
+      - database:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 3s
+      timeout: 5s
+      retries: 30
+  wordpress:
+    image: wordpress:7.0.2-php8.3-apache
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: ${RJHUB_DB_PASSWORD:?Run bash scripts/setup.sh to initialize .env}
+      WORDPRESS_CONFIG_EXTRA: |
+        define('WP_ENVIRONMENT_TYPE', 'local');
+        define('DISALLOW_FILE_EDIT', true);
+        define('WP_HTTP_BLOCK_EXTERNAL', true);
+    ports:
+      - "127.0.0.1:${RJHUB_PORT:-8080}:80"
+    volumes:
+      - wordpress:/var/www/html
+      - ./wp-content/themes/rj-hub:/var/www/html/wp-content/themes/rj-hub:ro
+      - ./wp-content/plugins/rj-hub-core:/var/www/html/wp-content/plugins/rj-hub-core:ro
+      - ./local/mu-plugins:/var/www/html/wp-content/mu-plugins:ro
+    healthcheck:
+      test: ["CMD", "php", "-r", "exit(@file_get_contents('http://127.0.0.1/wp-login.php', false, stream_context_create(['http' => ['follow_location' => 0]])) !== false ? 0 : 1);"]
+      interval: 3s
+      timeout: 5s
+      retries: 30
+  cli:
+    image: wordpress:cli-php8.3
+    profiles: ["tools"]
+    user: "33:33"
+    working_dir: /var/www/html
+    environment:
+      HOME: /tmp
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_NAME: wordpress
+      WORDPRESS_DB_USER: wordpress
+      WORDPRESS_DB_PASSWORD: ${RJHUB_DB_PASSWORD:?Run bash scripts/setup.sh to initialize .env}
+      WORDPRESS_CONFIG_EXTRA: |
+        define('WP_ENVIRONMENT_TYPE', 'local');
+        define('DISALLOW_FILE_EDIT', true);
+        define('WP_HTTP_BLOCK_EXTERNAL', true);
+    volumes:
+      - wordpress:/var/www/html
+      - ./wp-content/themes/rj-hub:/var/www/html/wp-content/themes/rj-hub:ro
+      - ./wp-content/plugins/rj-hub-core:/var/www/html/wp-content/plugins/rj-hub-core:ro
+      - ./local/mu-plugins:/var/www/html/wp-content/mu-plugins:ro
+      - ./content:/workspace/project/content:ro
+      - ./media:/workspace/project/media:ro
+      - ./scripts:/workspace/project/scripts:ro
+      - ./tests:/workspace/project/tests:ro
+volumes:
+  database:
+  wordpress:

@@ -1,1 +1,7 @@
 assets/.DS_Store
+.env
+.local/
+backups/
+
+# Private review derivatives are kept in the local package.
+media/preview/

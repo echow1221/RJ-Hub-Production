@@ -1,0 +1,65 @@
+{
+  "home-hero": {
+    "path": "media/preview/circle-dialogue.webp",
+    "width": 1600,
+    "height": 777,
+    "alt": "People seated in a circle around a low table in a sunlit room.",
+    "caption": "Private preview · Archival circle photograph. Publication rights and event context pending.",
+    "credit": "",
+    "rights_status": "review_required",
+    "private_only": true,
+    "source": "assets/rjhub-photos/2019FallDeannaClass.jpg",
+    "focal_x": 0.52,
+    "focal_y": 0.48
+  },
+  "workshop-activity": {
+    "path": "media/preview/workshop-activity.webp",
+    "width": 1600,
+    "height": 1200,
+    "alt": "People seated on the floor with colored sticks arranged between them.",
+    "caption": "Private preview · Archival workshop image. Publication rights and event context pending.",
+    "credit": "",
+    "rights_status": "review_required",
+    "private_only": true,
+    "source": "assets/rjhub-photos/2019GSITRainbowID.jpg",
+    "focal_x": 0.49,
+    "focal_y": 0.61
+  },
+  "home-support": {
+    "path": "media/preview/facilitation-circle.webp",
+    "width": 1600,
+    "height": 873,
+    "alt": "People seated in a circle near a plant and colorful materials.",
+    "caption": "Private preview · Archival circle photograph. Publication rights and event context pending.",
+    "credit": "",
+    "rights_status": "review_required",
+    "private_only": true,
+    "source": "assets/rjhub-photos/COSATraining1.jpg",
+    "focal_x": 0.53,
+    "focal_y": 0.53
+  },
+  "archival-gathering": {
+    "path": "media/preview/archival-gathering.webp",
+    "width": 1600,
+    "height": 1001,
+    "alt": "People seated in a large circle of chairs and couches.",
+    "caption": "Private preview · Archival gathering photograph. Publication rights and event context pending.",
+    "credit": "",
+    "rights_status": "review_required",
+    "private_only": true,
+    "source": "assets/rjhub-photos/Copy of 2015RJforSVSHConferenceCircleLea.jpg",
+    "focal_x": 0.5,
+    "focal_y": 0.48
+  },
+  "rj-hub-mark": {
+    "path": "media/preview/rj-hub-mark.png",
+    "width": 512,
+    "height": 486,
+    "alt": "RJ Hub lettering inside a painted circle",
+    "caption": "Provisional mark extracted from the brand kit for private preview. Approved web logo pending.",
+    "credit": "RJ Hub brand kit, page 3",
+    "rights_status": "review_required",
+    "private_only": true,
+    "source": "brand-kit/Brand KitRJHub.pdf"
+  }
+}
