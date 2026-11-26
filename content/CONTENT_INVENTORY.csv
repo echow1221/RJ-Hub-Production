@@ -1,0 +1,5 @@
+source_type,workbook_yes,workbook_no,total_rows,legacy_records_imported,reason
+Content Page,61,11,72,0,Authorized bodies and assets pending
+Landing Page,20,13,33,0,Authorized bodies and assets pending
+News Item,27,17,44,0,Authorized bodies and assets pending
+All source records,108,41,149,0,Published candidates blocked by host access; unpublished records held

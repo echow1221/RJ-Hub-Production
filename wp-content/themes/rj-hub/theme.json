@@ -1,0 +1,239 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {
+      "contentSize": "46rem",
+      "wideSize": "78rem"
+    },
+    "color": {
+      "defaultPalette": false,
+      "defaultGradients": false,
+      "palette": [
+        {
+          "slug": "rj-blue",
+          "name": "RJ Hub Blue",
+          "color": "#1a307d"
+        },
+        {
+          "slug": "deep-blue",
+          "name": "Deep Blue",
+          "color": "#022676"
+        },
+        {
+          "slug": "off-white",
+          "name": "Off-White",
+          "color": "#fcffff"
+        },
+        {
+          "slug": "secondary-blue",
+          "name": "Secondary Blue",
+          "color": "#405396"
+        },
+        {
+          "slug": "black",
+          "name": "Black",
+          "color": "#000000"
+        },
+        {
+          "slug": "deep-teal",
+          "name": "Deep Teal",
+          "color": "#254857"
+        },
+        {
+          "slug": "mist",
+          "name": "Mist",
+          "color": "#edf3fa"
+        },
+        {
+          "slug": "line",
+          "name": "Rule",
+          "color": "#d0dded"
+        }
+      ]
+    },
+    "typography": {
+      "fluid": true,
+      "fontFamilies": [
+        {
+          "fontFamily": "\"Noto Serif\", Georgia, serif",
+          "slug": "display",
+          "name": "Noto Serif",
+          "fontFace": [
+            {
+              "fontFamily": "Noto Serif",
+              "fontWeight": "400",
+              "fontStyle": "normal",
+              "fontDisplay": "swap",
+              "src": [
+                "file:./assets/fonts/NotoSerif-Regular.ttf"
+              ]
+            }
+          ]
+        },
+        {
+          "fontFamily": "\"Times New Roman\", Times, serif",
+          "slug": "teaching",
+          "name": "Times New Roman"
+        },
+        {
+          "fontFamily": "system-ui, \"Segoe UI\", sans-serif",
+          "slug": "interface",
+          "name": "System Sans"
+        }
+      ],
+      "fontSizes": [
+        {
+          "slug": "small",
+          "name": "Small",
+          "size": "0.875rem"
+        },
+        {
+          "slug": "medium",
+          "name": "Medium",
+          "size": "1rem"
+        },
+        {
+          "slug": "large",
+          "name": "Large",
+          "size": "1.375rem"
+        },
+        {
+          "slug": "x-large",
+          "name": "Extra Large",
+          "size": "2.25rem"
+        },
+        {
+          "slug": "display",
+          "name": "Display",
+          "size": "3.5rem"
+        }
+      ]
+    },
+    "spacing": {
+      "units": [
+        "px",
+        "rem",
+        "%",
+        "vw"
+      ],
+      "blockGap": true
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "var:preset|color|off-white",
+      "text": "var:preset|color|black"
+    },
+    "spacing": {
+      "blockGap": "1.25rem"
+    },
+    "typography": {
+      "fontFamily": "var:preset|font-family|teaching",
+      "fontSize": "1.25rem",
+      "lineHeight": "1.6"
+    },
+    "elements": {
+      "heading": {
+        "color": {
+          "text": "var:preset|color|rj-blue"
+        },
+        "typography": {
+          "fontFamily": "var:preset|font-family|display",
+          "fontWeight": "400",
+          "lineHeight": "1.13"
+        }
+      },
+      "h1": {
+        "typography": {
+          "fontSize": "clamp(2.65rem, 5.8vw, 5.5rem)"
+        }
+      },
+      "h2": {
+        "typography": {
+          "fontSize": "clamp(2rem, 4vw, 3.65rem)"
+        }
+      },
+      "h3": {
+        "typography": {
+          "fontSize": "clamp(1.45rem, 2.4vw, 1.85rem)"
+        }
+      },
+      "h4": {
+        "typography": {
+          "fontSize": "1.25rem"
+        }
+      },
+      "link": {
+        "color": {
+          "text": "var:preset|color|deep-blue"
+        },
+        "typography": {
+          "textDecoration": "underline"
+        }
+      },
+      "button": {
+        "border": {
+          "radius": "6px"
+        },
+        "color": {
+          "background": "var:preset|color|rj-blue",
+          "text": "var:preset|color|off-white"
+        },
+        "spacing": {
+          "padding": {
+            "top": ".75rem",
+            "bottom": ".75rem",
+            "left": "1.1rem",
+            "right": "1.1rem"
+          }
+        },
+        "typography": {
+          "fontFamily": "var:preset|font-family|interface",
+          "fontSize": ".875rem",
+          "fontWeight": "650"
+        }
+      }
+    },
+    "blocks": {
+      "core/post-title": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|display"
+        }
+      },
+      "core/navigation": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|interface"
+        }
+      },
+      "core/site-title": {
+        "typography": {
+          "fontFamily": "var:preset|font-family|display"
+        }
+      },
+      "core/pullquote": {
+        "color": {
+          "text": "var:preset|color|deep-teal"
+        }
+      },
+      "core/quote": {
+        "color": {
+          "text": "var:preset|color|deep-teal"
+        }
+      }
+    }
+  },
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Header",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Footer",
+      "area": "footer"
+    }
+  ]
+}

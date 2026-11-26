@@ -1,1 +1,8 @@
 assets/.DS_Store
+.env
+.local/
+backups/
+
+# Generate consent-pending derivatives locally for private review.
+media/preview/
+__pycache__/

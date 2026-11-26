@@ -1,0 +1,10 @@
+old_path,target_path,status,review_state,notes
+/,/,none,same_path,Preserve the canonical root.
+/home,/,pending,workbook_candidate,Confirm body equivalence and canonical old alias.
+/about-rj-hub-0,/about/,pending,workbook_candidate,Compare About variants and verify current Hub language.
+/about-rj-center/what-rj,/what-is-rj/,pending,workbook_candidate,Verify content equivalence and attribution.
+/about-rj-center/contact-us,/contact/,pending,workbook_candidate,Confirm approved contact details and path.
+/about-rj-center/legacy-rj,/legacy/,pending,workbook_candidate,Confirm historical records and rights.
+/truth-justice-reconciliation/projects,/projects/,pending,workbook_candidate,Confirm project records and individual links.
+/student-involvement,/get-involved/,pending,workbook_candidate,Reconcile competing versions and available opportunities.
+/resources,/resources/,pending,same_path_candidate,Preserve the path and reconcile resource records.
