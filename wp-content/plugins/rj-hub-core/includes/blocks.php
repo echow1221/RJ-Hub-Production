@@ -4,11 +4,11 @@ defined( 'ABSPATH' ) || exit;
 
 function rjh_collections(): array {
 	return array(
-		'blog'      => array( 'Blog', 'post', 'category', 'Articles will appear here after the source archive and bylines are reviewed.' ),
-		'projects'  => array( 'Projects', 'rj_project', 'rj_project_topic', 'Project summaries and source documents will appear here after editorial review.' ),
-		'resources' => array( 'Resources', 'rj_resource', 'rj_resource_type', 'Reviewed readings, tools, and community resources will appear here.' ),
-		'partners'  => array( 'Community partners', 'rj_partner', '', 'Current partnerships are under review.' ),
-		'offerings' => array( 'Offerings', 'rj_offering', '', 'Current offerings are under review.' ),
+		'blog'      => array( 'Blog', 'post', 'category', 'There are no articles in this collection yet.' ),
+		'projects'  => array( 'Projects', 'rj_project', 'rj_project_topic', 'There are no project records in this collection yet.' ),
+		'resources' => array( 'Resources', 'rj_resource', 'rj_resource_type', 'There are no resources in this collection yet.' ),
+		'partners'  => array( 'Community partners', 'rj_partner', '', 'There are no organizations listed in this directory yet.' ),
+		'offerings' => array( 'Offerings', 'rj_offering', '', 'There are no upcoming workshops or services listed here.' ),
 	);
 }
 

@@ -2,7 +2,21 @@
 
 A private, editable WordPress prototype for the RJ Hub. It includes an editorial homepage and an alternate composition, a brand guide, searchable archives, structured editorial content, a California historical map with a searchable text view, and an intake preview with no submission capability.
 
-The public site and editorial inventory could not be read from the development environment. The site starts with review-labeled editorial material and an import workflow for an authorized source export. See [Content migration](docs/CONTENT_MIGRATION_REPORT.md) for verified source coverage and discrepancies.
+The visitor copy draws on the supplied brand kit and the topics documented in the editorial inventory. The cloud connection to the public site is blocked, so its exact wording, programs, and article bodies still need source verification. See [Content migration](docs/CONTENT_MIGRATION_REPORT.md) for the authorized import workflow.
+
+## Update the original site on a Mac
+
+1. Open Docker Desktop and confirm your original site loads at [127.0.0.1:8092](http://127.0.0.1:8092/).
+2. On the GitHub branch `rj-hub/original-wording`, select **Code → Download ZIP**. Open Finder, go to **Downloads**, and double-click the ZIP to extract it.
+3. Open the Mac **Terminal** app. Type `cd` followed by a space, drag the newly extracted folder into Terminal, and press **Return**.
+4. Run the update and open your site.
+
+   ```bash
+   bash scripts/update-original-copy.sh &&
+   open http://127.0.0.1:8092/
+   ```
+
+The update uses Docker to find the existing `rjhuboriginal` installation. It backs up the local database and uploads, updates the original starter passages, and skips passages or plugin files that have been edited. The updated page text is editable in WordPress. Keep the backups in the original project's `backups/` folder private. Add `--check` to the command to see which page passages are ready to update before making changes.
 
 ## Start on Windows with WSL 2 and Docker Desktop
 

@@ -88,7 +88,7 @@ function rjh_render_map(): string {
 			</ol>
 			<?php rjh_pagination( $url, '' === $search ? array() : array( 'rj-map-search' => $search ), 'rj-map-page', $page, (int) $query->max_num_pages, 'Historical locations pages' ); ?>
 		<?php else : ?>
-			<p class="rjh-empty"><?php echo esc_html( '' !== $search || $page > 1 ? 'No verified locations match this view.' : 'No historical locations have been verified for this preview. Entries will appear when documented locations and sources are approved.' ); ?></p>
+			<p class="rjh-empty"><?php echo esc_html( '' !== $search || $page > 1 ? 'No verified locations match this view.' : 'There are no verified locations in this collection yet.' ); ?></p>
 		<?php endif; ?>
 	</section>
 	<?php

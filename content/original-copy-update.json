@@ -1,0 +1,242 @@
+[
+  {
+    "type": "page",
+    "slug": "home",
+    "changes": [
+      {
+        "before": "<p class=\"rj-home-intro\">Explore restorative justice at UC Berkeley through the practices of listening, dialogue, and accountability.</p>",
+        "after": "<p class=\"rj-home-intro\">At UC Berkeley, the Restorative Justice Hub explores how communities respond to harm through dialogue, accountability, and repair.</p>"
+      },
+      {
+        "before": "<p>Learn about restorative justice and find projects and resources for further study.</p>",
+        "after": "<p>Explore restorative justice through research, community learning, and practical resources.</p>"
+      },
+      {
+        "before": "<p>Find reading and viewing materials, or see how to get involved with the Hub.</p>",
+        "after": "<p>Find guides for reflecting on harm, planning accessible discussions, and taking part in restorative conversations.</p>"
+      },
+      {
+        "before": "<p>Browse the Blog for updates as articles are added.</p>",
+        "after": "<p>For more on restorative practice, <a href=\"/resources/\">browse the learning guides</a>.</p>"
+      }
+    ]
+  },
+  {
+    "type": "page",
+    "slug": "home-alternate",
+    "changes": [
+      {
+        "before": "<p class=\"rj-home-intro\">Explore restorative justice at UC Berkeley through the practices of listening, dialogue, and accountability.</p>",
+        "after": "<p class=\"rj-home-intro\">At UC Berkeley, the Restorative Justice Hub explores how communities respond to harm through dialogue, accountability, and repair.</p>"
+      },
+      {
+        "before": "<p>Learn about restorative justice and find projects and resources for further study.</p>",
+        "after": "<p>Explore restorative justice through research, community learning, and practical resources.</p>"
+      },
+      {
+        "before": "<p>Find reading and viewing materials, or see how to get involved with the Hub.</p>",
+        "after": "<p>Find guides for reflecting on harm, planning accessible discussions, and taking part in restorative conversations.</p>"
+      },
+      {
+        "before": "<p>Browse the Blog for updates as articles are added.</p>",
+        "after": "<p>For more on restorative practice, <a href=\"/resources/\">browse the learning guides</a>.</p>"
+      }
+    ]
+  },
+  {
+    "type": "page",
+    "slug": "about",
+    "changes": [
+      {
+        "before": "<p>The Restorative Justice Hub at the University of California, Berkeley is the subject of this local prototype. Explore the educational materials, see how the archive will be organized, and help shape what the site should make easier to find.</p>",
+        "after": "<p>The Restorative Justice Hub at the University of California, Berkeley is a place to learn how communities respond to harm, build relationships, and pursue accountability and repair.</p>"
+      },
+      {
+        "before": "<p>This prototype makes space for learning about restorative justice, sharing projects and resources, and bringing people into conversation. The Hub’s official mission and current campus relationships are awaiting editorial review.</p>",
+        "after": "<p>Restorative practices make room for people to describe how they were affected, listen to one another, and decide how they want to participate. Explore the Hub’s learning guides and project materials to see how those ideas inform restorative practice.</p>"
+      },
+      {
+        "before": "<p>The former Berkeley Restorative Justice Center has a place in the <a href=\"/legacy/\">historical archive</a>. See <a href=\"/offerings/\">Offerings</a> for the status of current activities.</p>",
+        "after": "<p>The former Berkeley Restorative Justice Center is part of the history of restorative justice at Berkeley. The <a href=\"/legacy/\">historical archive</a> covers the Center’s earlier work. Find information on current activities under <a href=\"/offerings/\">Offerings</a>.</p>"
+      }
+    ]
+  },
+  {
+    "type": "page",
+    "slug": "what-is-rj",
+    "changes": [
+      {
+        "before": "<p>This introduction was written for the prototype. It is available for editorial review.</p>",
+        "after": "<p>Restorative practices can help people build relationships before conflict arises or respond after harm has occurred. The people affected should have a say in whether the process goes ahead, what they are willing to share, and what support they need.</p>"
+      }
+    ]
+  },
+  {
+    "type": "page",
+    "slug": "resources",
+    "changes": [
+      {
+        "before": "<p>Explore reading and discussion materials for learning about restorative justice. Starter resources are labeled for prototype review.</p>",
+        "after": "<p>Find guides for learning about restorative justice, reflecting on harm, and planning discussions that people can take part in. Search by keyword or browse by category.</p>"
+      }
+    ]
+  },
+  {
+    "type": "page",
+    "slug": "blog",
+    "changes": [
+      {
+        "before": "<p>Read stories, reflections, and news from the Hub as they become available. The editorial team can review dates, bylines, and publication status before adding articles from the previous site.</p>",
+        "after": "<p>Browse news, reflections, and writing on restorative justice, community accountability, and repair.</p>"
+      }
+    ]
+  },
+  {
+    "type": "page",
+    "slug": "projects",
+    "changes": [
+      {
+        "before": "<p>Explore restorative justice research, teaching, and community work as project records are added. Each record can carry its own credits, citations, links, and documents.</p>",
+        "after": "<p>Explore research, teaching, and community work on restorative justice, truth, and reconciliation. Project records identify contributors and link to sources for further study.</p>"
+      }
+    ]
+  },
+  {
+    "type": "page",
+    "slug": "maps",
+    "changes": [
+      {
+        "before": "<p>This research space is for documented histories of violence against Indigenous peoples in California. Verified records will connect places to nation-specific context, date or date range, and sources for further reading.</p>",
+        "after": "<p>This collection focuses on documented sites of historical violence against Indigenous peoples in California. Records bring together place, date, the Nation or community affected, and sources for further reading.</p>"
+      }
+    ]
+  },
+  {
+    "type": "page",
+    "slug": "offerings",
+    "changes": [
+      {
+        "before": "<p><strong>Offerings under review.</strong> Current services, eligibility, and availability are awaiting approval.</p>",
+        "after": "<p>Find information on restorative justice workshops and other learning opportunities. Current listings provide dates, eligibility, and how to participate when those details are available.</p>"
+      },
+      {
+        "before": "<p>Historical programming from the former Berkeley Restorative Justice Center belongs in the <a href=\"/legacy/\">Legacy archive</a>. See <a href=\"/intake/\">Intake and requests</a> for the status of the proposed request pathway.</p>",
+        "after": "<p>Explore the <a href=\"/resources/\">learning guides</a> for self-guided study. For earlier programs of the Berkeley Restorative Justice Center, see <a href=\"/legacy/\">Legacy and History</a>.</p>"
+      }
+    ]
+  },
+  {
+    "type": "page",
+    "slug": "community-partners",
+    "changes": [
+      {
+        "before": "<p>This directory will list organizations after the Hub confirms the relationship, description, and preferred links with each organization.</p>",
+        "after": "<p>Community organizations put restorative principles into practice in different ways. Each directory entry describes the organization’s relationship with the Hub and links to more about its work.</p>"
+      }
+    ]
+  },
+  {
+    "type": "page",
+    "slug": "get-involved",
+    "changes": [
+      {
+        "before": "<p>The Hub is reviewing student opportunities and the appropriate contact pathway. Confirmed opportunities can be listed here with eligibility, timing, and application details.</p>",
+        "after": "<p>Students can use the learning guides to start a class discussion or independent study. The project collection offers another way to explore questions about truth, accountability, and repair.</p>"
+      },
+      {
+        "before": "<p><a href=\"/contact/\">See the contact page</a> for the status of public inquiries.</p>",
+        "after": "<p>For current campus information, see <a href=\"/contact/\">Contact</a>.</p>"
+      }
+    ]
+  },
+  {
+    "type": "page",
+    "slug": "contact",
+    "changes": [
+      {
+        "before": "<p>The Hub is reviewing its public contact details. Contact information will be added here when a designated mailbox and response process are confirmed.</p>",
+        "after": "<p>Visit the <a href=\"https://rjhub.berkeley.edu/\">UC Berkeley Restorative Justice Hub website</a> for current campus information.</p>"
+      },
+      {
+        "before": "<p><a href=\"/intake/\">Read the status of intake and requests</a>.</p>",
+        "after": "<p>See <a href=\"/intake/\">Intake and Requests</a> for information about submitting a request.</p>"
+      }
+    ]
+  },
+  {
+    "type": "page",
+    "slug": "intake",
+    "changes": [
+      {
+        "before": "<p>This preview shows where request information could live. An intake process requires approval of services, notice and consent, data retention, and who may access requests.</p>",
+        "after": "<p>For learning materials, browse <a href=\"/resources/\">Resources</a>. For current campus information, see <a href=\"/contact/\">Contact</a>.</p>"
+      }
+    ]
+  },
+  {
+    "type": "page",
+    "slug": "legacy",
+    "changes": [
+      {
+        "before": "<p>This archive is reserved for historical records about the former Berkeley Restorative Justice Center. Historical descriptions and images will be dated and credited as the records are reviewed.</p>",
+        "after": "<p>The former Berkeley Restorative Justice Center is part of the history of restorative justice at Berkeley. This section provides context for the Center’s earlier work.</p>"
+      },
+      {
+        "before": "<p>Archived program descriptions, articles, and photographs are awaiting source and rights review. See <a href=\"/offerings/\">Offerings</a> for current service status.</p>",
+        "after": "<p>The Center’s historical site inventory includes service listings for students, staff, and faculty. For current opportunities, see <a href=\"/offerings/\">Offerings</a>.</p>"
+      }
+    ]
+  },
+  {
+    "type": "page",
+    "slug": "accessibility",
+    "changes": [
+      {
+        "before": "<p>The Hub aims to make its materials usable with a keyboard, at different screen sizes, and with assistive technology. This prototype is undergoing accessibility review.</p>",
+        "after": "<p>Use the skip link to reach the main content, or use Tab to move between links and controls. The site supports browsing on smaller screens and includes text alternatives for interactive content.</p>"
+      },
+      {
+        "before": "<p>The public process for reporting an accessibility issue is awaiting confirmation. See the <a href=\"/contact/\">contact page</a> for the latest status.</p>",
+        "after": "<p>For current campus contact information, see <a href=\"/contact/\">Contact</a>.</p>"
+      }
+    ]
+  },
+  {
+    "type": "page",
+    "slug": "privacy",
+    "changes": [
+      {
+        "before": "<p>This is a local review prototype. Its intake demo has no submission workflow. Please keep real personal or case information out of the preview.</p>",
+        "after": "<p>This site does not collect intake submissions. Search terms can appear in your browser’s address bar and history. Use general topics when searching and keep personal or case information out of search terms.</p>"
+      },
+      {
+        "before": "<h2 class=\"wp-block-heading\">Future intake and publication</h2>",
+        "after": "<h2 class=\"wp-block-heading\">Signing in</h2>"
+      },
+      {
+        "before": "<p>Review of the privacy notice, consent process, retention rules, and access controls is required before accepting requests. An approved privacy notice can be published here.</p>",
+        "after": "<p>WordPress uses cookies to keep editors signed in. Accounts, drafts, and uploads are stored in this WordPress installation.</p>"
+      }
+    ]
+  },
+  {
+    "type": "rj_resource",
+    "slug": "questions-for-restorative-reflection",
+    "changes": [
+      {
+        "before": "<p>Prepared for editorial review in the RJ Hub local prototype. <a href=\"/what-is-rj/\">Read the introduction to restorative justice</a>.</p>",
+        "after": "<p>For more on listening, accountability, and repair, <a href=\"/what-is-rj/\">read the introduction to restorative justice</a>.</p>"
+      }
+    ]
+  },
+  {
+    "type": "rj_resource",
+    "slug": "planning-an-accessible-discussion",
+    "changes": [
+      {
+        "before": "<p>Prepared for editorial review in the RJ Hub local prototype. <a href=\"/accessibility/\">Read about accessibility on this site</a>.</p>",
+        "after": "<p><a href=\"/resources/\">Browse more restorative justice guides</a>.</p>"
+      }
+    ]
+  }
+]
