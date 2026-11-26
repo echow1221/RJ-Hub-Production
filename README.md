@@ -13,7 +13,7 @@ bash scripts/setup.sh
 open http://127.0.0.1:8080/
 ```
 
-For a separate private photo review instance, run these commands from the extracted project folder and use port 8081 for the dashboard too:
+For a separate private photo review instance, extract the private-photo review ZIP and open its project folder in Terminal. Then run these commands and use port 8081 for the dashboard too:
 
 ```bash
 COMPOSE_PROJECT_NAME=rjhubprivate RJHUB_PORT=8081 bash scripts/setup.sh --private-media
